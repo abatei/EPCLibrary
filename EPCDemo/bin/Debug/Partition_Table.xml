@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PartitionTable>
+  <Partition name="sgtin" part1Name="GS1公司前缀"
+             part2Name="指示符/填充数字和项目引用"
+             col2Method="Integer" col4Method="Integer">
+    <Row value="0" col1="40" col2="12" col3="4" col4="1"/>
+    <Row value="1" col1="37" col2="11" col3="7" col4="2"/>
+    <Row value="2" col1="34" col2="10" col3="10" col4="3"/>
+    <Row value="3" col1="30" col2="9" col3="14" col4="4"/>
+    <Row value="4" col1="27" col2="8" col3="17" col4="5"/>
+    <Row value="5" col1="24" col2="7" col3="20" col4="6"/>
+    <Row value="6" col1="20" col2="6" col3="24" col4="7"/>
+  </Partition>
+  <Partition name="sscc" part1Name="GS1公司前缀"
+             part2Name="扩展数字和系列参考"
+             col2Method="Integer" col4Method="Integer">
+    <Row value="0" col1="40" col2="12" col3="18" col4="5"/>
+    <Row value="1" col1="37" col2="11" col3="21" col4="6"/>
+    <Row value="2" col1="34" col2="10" col3="24" col4="7"/>
+    <Row value="3" col1="30" col2="9" col3="28" col4="8"/>
+    <Row value="4" col1="27" col2="8" col3="31" col4="9"/>
+    <Row value="5" col1="24" col2="7" col3="34" col4="10"/>
+    <Row value="6" col1="20" col2="6" col3="38" col4="11"/>
+  </Partition>
+  <Partition name="sgln" part1Name="GS1公司前缀"
+             part2Name="位置参考"
+             col2Method="Integer" col4Method="Integer">
+    <Row value="0" col1="40" col2="12" col3="1" col4="0"/>
+    <Row value="1" col1="37" col2="11" col3="4" col4="1"/>
+    <Row value="2" col1="34" col2="10" col3="7" col4="2"/>
+    <Row value="3" col1="30" col2="9" col3="11" col4="3"/>
+    <Row value="4" col1="27" col2="8" col3="14" col4="4"/>
+    <Row value="5" col1="24" col2="7" col3="17" col4="5"/>
+    <Row value="6" col1="20" col2="6" col3="21" col4="6"/>
+  </Partition>
+  <Partition name="grai" part1Name="GS1公司前缀"
+             part2Name="资产类型"
+             col2Method="Integer" col4Method="Integer">
+    <Row value="0" col1="40" col2="12" col3="4" col4="0"/>
+    <Row value="1" col1="37" col2="11" col3="7" col4="1"/>
+    <Row value="2" col1="34" col2="10" col3="10" col4="2"/>
+    <Row value="3" col1="30" col2="9" col3="14" col4="3"/>
+    <Row value="4" col1="27" col2="8" col3="17" col4="4"/>
+    <Row value="5" col1="24" col2="7" col3="20" col4="5"/>
+    <Row value="6" col1="20" col2="6" col3="24" col4="6"/>
+  </Partition>
+  <Partition name="giai-96" part1Name="GS1公司前缀"
+             part2Name="单个资产参考"
+             col2Method="Integer" col4Method="Integer_max">
+    <Row value="0" col1="40" col2="12" col3="42" col4="13"/>
+    <Row value="1" col1="37" col2="11" col3="45" col4="14"/>
+    <Row value="2" col1="34" col2="10" col3="48" col4="15"/>
+    <Row value="3" col1="30" col2="9" col3="52" col4="16"/>
+    <Row value="4" col1="27" col2="8" col3="55" col4="17"/>
+    <Row value="5" col1="24" col2="7" col3="58" col4="18"/>
+    <Row value="6" col1="20" col2="6" col3="62" col4="19"/>
+  </Partition>
+  <Partition name="giai-202" part1Name="GS1公司前缀"
+             part2Name="单个资产参考"
+             col2Method="Integer" col4Method="Set82_max">
+    <Row value="0" col1="40" col2="12" col3="148" col4="18"/>
+    <Row value="1" col1="37" col2="11" col3="151" col4="19"/>
+    <Row value="2" col1="34" col2="10" col3="154" col4="20"/>
+    <Row value="3" col1="30" col2="9" col3="158" col4="21"/>
+    <Row value="4" col1="27" col2="8" col3="161" col4="22"/>
+    <Row value="5" col1="24" col2="7" col3="164" col4="23"/>
+    <Row value="6" col1="20" col2="6" col3="168" col4="24"/>
+  </Partition>
+  <Partition name="gsrn" part1Name="GS1公司前缀"
+             part2Name="服务参考"
+             col2Method="Integer" col4Method="Integer">
+    <Row value="0" col1="40" col2="12" col3="18" col4="5"/>
+    <Row value="1" col1="37" col2="11" col3="21" col4="6"/>
+    <Row value="2" col1="34" col2="10" col3="24" col4="7"/>
+    <Row value="3" col1="30" col2="9" col3="28" col4="8"/>
+    <Row value="4" col1="27" col2="8" col3="31" col4="9"/>
+    <Row value="5" col1="24" col2="7" col3="34" col4="10"/>
+    <Row value="6" col1="20" col2="6" col3="38" col4="11"/>
+  </Partition>
+  <Partition name="gdti" part1Name="GS1公司前缀"
+             part2Name="文档类型"
+             col2Method="Integer" col4Method="Integer">
+    <Row value="0" col1="40" col2="12" col3="1" col4="0"/>
+    <Row value="1" col1="37" col2="11" col3="4" col4="1"/>
+    <Row value="2" col1="34" col2="10" col3="7" col4="2"/>
+    <Row value="3" col1="30" col2="9" col3="11" col4="3"/>
+    <Row value="4" col1="27" col2="8" col3="14" col4="4"/>
+    <Row value="5" col1="24" col2="7" col3="17" col4="5"/>
+    <Row value="6" col1="20" col2="6" col3="21" col4="6"/>
+  </Partition>
+  <Partition name="cpi-96" part1Name="GS1公司前缀"
+             part2Name="组件/部件参考"
+             col2Method="Integer" col4Method="Integer_max">
+    <Row value="0" col1="40" col2="12" col3="11" col4="3"/>
+    <Row value="1" col1="37" col2="11" col3="14" col4="4"/>
+    <Row value="2" col1="34" col2="10" col3="17" col4="5"/>
+    <Row value="3" col1="30" col2="9" col3="21" col4="6"/>
+    <Row value="4" col1="27" col2="8" col3="24" col4="7"/>
+    <Row value="5" col1="24" col2="7" col3="27" col4="8"/>
+    <Row value="6" col1="20" col2="6" col3="31" col4="9"/>
+  </Partition>
+  <Partition name="cpi-var" part1Name="GS1公司前缀"
+             part2Name="组件/部件参考"
+             col2Method="Integer" col4Method="Set39_max">
+    <Row value="0" col1="40" col2="12" col3="114" col4="18"/>
+    <Row value="1" col1="37" col2="11" col3="120" col4="19"/>
+    <Row value="2" col1="34" col2="10" col3="126" col4="20"/>
+    <Row value="3" col1="30" col2="9" col3="132" col4="21"/>
+    <Row value="4" col1="27" col2="8" col3="138" col4="22"/>
+    <Row value="5" col1="24" col2="7" col3="144" col4="23"/>
+    <Row value="6" col1="20" col2="6" col3="150" col4="24"/>
+  </Partition>
+  <Partition name="sgcn" part1Name="GS1公司前缀"
+             part2Name="优惠劵参考"
+             col2Method="Integer" col4Method="Integer">
+    <Row value="0" col1="40" col2="12" col3="1" col4="0"/>
+    <Row value="1" col1="37" col2="11" col3="4" col4="1"/>
+    <Row value="2" col1="34" col2="10" col3="7" col4="2"/>
+    <Row value="3" col1="30" col2="9" col3="11" col4="3"/>
+    <Row value="4" col1="27" col2="8" col3="14" col4="4"/>
+    <Row value="5" col1="24" col2="7" col3="17" col4="5"/>
+    <Row value="6" col1="20" col2="6" col3="21" col4="6"/>
+  </Partition>
+  <Partition name="itip" part1Name="GS1公司前缀"
+             part2Name="指示/填充数字和项目参考"
+             col2Method="Integer" col4Method="Integer">
+    <Row value="0" col1="40" col2="12" col3="4" col4="1"/>
+    <Row value="1" col1="37" col2="11" col3="7" col4="2"/>
+    <Row value="2" col1="34" col2="10" col3="10" col4="3"/>
+    <Row value="3" col1="30" col2="9" col3="14" col4="4"/>
+    <Row value="4" col1="27" col2="8" col3="17" col4="5"/>
+    <Row value="5" col1="24" col2="7" col3="20" col4="6"/>
+    <Row value="6" col1="20" col2="6" col3="24" col4="7"/>
+  </Partition>
+</PartitionTable>

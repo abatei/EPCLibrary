@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodingTable>
+  <Scheme name="sgtin"  uri="urn:epc:id:sgtin:">
+    <TagScheme name="sgtin-96" len="96">
+      <Header uri="urn:epc:tag:sgtin-96:" len="8" method="fix">48</Header>
+      <Filter name="过滤值" len="3" method="Integer"/>
+      <Partition len="47" tableName="sgtin"/>
+      <Serial name="系列号" len="38" method="Integer"/>
+    </TagScheme>
+    <TagScheme name="sgtin-198" len="198">
+      <Header uri="urn:epc:tag:sgtin-198:" len="8" method="fix">54</Header>
+      <Filter name="过滤值" len="3" method="Integer"/>
+      <Partition len="47" tableName="sgtin"/>
+      <Serial name="系列号" len="140" method="Set82"/>
+    </TagScheme>
+  </Scheme>
+  <Scheme name="sscc" uri="urn:epc:id:sscc:">
+    <TagScheme name="sscc-96" len="96">
+      <Header uri="urn:epc:tag:sscc-96:" len="8" method="fix">49</Header>
+      <Filter name="过滤值" len="3" method="Integer"/>
+      <Partition len="61" tableName="sscc"/>
+      <Reserved name="保留" len="24" method="FillZero"/>
+    </TagScheme>
+  </Scheme>
+  <Scheme name="sgln" uri="urn:epc:id:sgln:">
+    <TagScheme name="sgln-96" len="96">
+      <Header uri="urn:epc:tag:sgln-96:" len="8" method="fix">50</Header>
+      <Filter name="过滤值" len="3" method="Integer"/>
+      <Partition len="44" tableName="sgln"/>
+      <Extension name="扩展" len="41" method="Integer"/>
+    </TagScheme>
+    <TagScheme name="sgln-195" len="195">
+      <Header uri="urn:epc:tag:sgln-96:" len="8" method="fix">57</Header>
+      <Filter name="过滤值" len="3" method="Integer"/>
+      <Partition len="44" tableName="sgln"/>
+      <Extension name="扩展" len="140" method="Set82"/>
+    </TagScheme>
+  </Scheme>
+  <Scheme name="grai" uri="urn:epc:id:grai:">
+    <TagScheme name="grai-96" len="96">
+      <Header uri="urn:epc:tag:grai-96:" len="8" method="fix">51</Header>
+      <Filter name="过滤值" len="3" method="Integer"/>
+      <Partition len="47" tableName="grai"/>
+      <Serial name="系列" len="38" method="Integer"/>
+    </TagScheme>
+    <TagScheme name="grai-170" len="170">
+      <Header uri="urn:epc:tag:grai-170:" len="8" method="fix">55</Header>
+      <Filter name="过滤值" len="3" method="Integer"/>
+      <Partition len="47" tableName="grai"/>
+      <Serial name="系列" len="112" method="Set82"/>
+    </TagScheme>
+  </Scheme>
+  <Scheme name="giai" uri="urn:epc:id:giai:">
+    <TagScheme name="giai-96" len="96">
+      <Header uri="urn:epc:tag:giai-96:" len="8" method="fix">52</Header>
+      <Filter name="过滤值" len="3" method="Integer"/>
+      <Partition len="85" tableName="giai-96"/>
+    </TagScheme>
+    <TagScheme name="giai-202" len="202">
+      <Header uri="urn:epc:tag:giai-202:" len="8" method="fix">56</Header>
+      <Filter name="过滤值" len="3" method="Integer"/>
+      <Partition len="191" tableName="giai-202"/>
+    </TagScheme>
+  </Scheme>
+  <Scheme name="gsrn" uri="urn:epc:id:gsrn:">
+    <TagScheme name="gsrn-96" len="96">
+      <Header uri="urn:epc:tag:gsrn-96:" len="8" method="fix">45</Header>
+      <Filter name="过滤值" len="3" method="Integer"/>
+      <Partition len="61" tableName="gsrn"/>
+      <Reserved name="保留" len="24" method="FillZero"/>
+    </TagScheme>
+  </Scheme>
+  <Scheme name="gsrnp" uri="urn:epc:id:gsrnp:">
+    <TagScheme name="gsrnp-96" len="96">
+      <Header uri="urn:epc:tag:gsrnp-96:" len="8" method="fix">46</Header>
+      <Filter name="过滤值" len="3" method="Integer"/>
+      <Partition len="61" tableName="gsrn"/>
+      <Reserved name="保留" len="24" method="FillZero"/>
+    </TagScheme>
+  </Scheme>
+  <Scheme name="gdti" uri="urn:epc:id:gdti:">
+    <TagScheme name="gdti-96" len="96">
+      <Header uri="urn:epc:tag:gdti-96:" len="8" method="fix">44</Header>
+      <Filter name="过滤值" len="3" method="Integer"/>
+      <Partition len="44" tableName="gdti"/>
+      <Serial name="系列" len="41" method="Integer"/>
+    </TagScheme>
+    <TagScheme name="gdti-113" len="113">
+      <Header uri="urn:epc:tag:gdti-113:" len="8" method="fix">58</Header>
+      <Filter name="过滤值" len="3" method="Integer"/>
+      <Partition len="44" tableName="gdti"/>
+      <Serial name="系列" len="58" method="NumericString"/>
+    </TagScheme>
+    <TagScheme name="gdti-174" len="174">
+      <Header uri="urn:epc:tag:gdti-174:" len="8" method="fix">62</Header>
+      <Filter name="过滤值" len="3" method="Integer"/>
+      <Partition len="44" tableName="gdti"/>
+      <Serial name="系列" len="119" method="Set82"/>
+    </TagScheme>
+  </Scheme>
+  <Scheme name="cpi" uri="urn:epc:id:cpi:">
+    <TagScheme name="cpi-96" len="96">
+      <Header uri="urn:epc:tag:cpi-96:" len="8" method="fix">60</Header>
+      <Filter name="过滤值" len="3" method="Integer"/>
+      <Partition len="54" tableName="cpi-96"/>
+      <Serial name="系列" len="31" method="Integer"/>
+    </TagScheme>
+    <TagScheme name="cpi-var" len="224">
+      <Header uri="urn:epc:tag:cpi-var:" len="8" method="fix">61</Header>
+      <Filter name="过滤值" len="3" method="Integer"/>
+      <Partition lenMax="173" tableName="cpi-var"/>
+      <Serial name="系列" len="40" method="Integer"/>
+    </TagScheme>
+  </Scheme>
+  <Scheme name="sgcn" uri="urn:epc:id:sgcn:">
+    <TagScheme name="sgcn-96" len="96">
+      <Header uri="urn:epc:tag:sgcn-96:" len="8" method="fix">63</Header>
+      <Filter name="过滤值" len="3" method="Integer"/>
+      <Partition len="44" tableName="sgcn"/>
+      <Serial name="系列组件" len="41" method="NumericString"/>
+    </TagScheme>
+  </Scheme>
+  <Scheme name="itip" uri="urn:epc:id:itip:">
+    <TagScheme name="itip-110" len="110">
+      <Header uri="urn:epc:tag:itip-110:" len="8" method="fix">64</Header>
+      <Filter name="过滤值" len="3" method="Integer"/>
+      <Partition len="47" tableName="itip"/>
+      <Piece name="组件号" len="7" method="FixedWidthInteger"/>
+      <Total name="总件数" len="7" method="FixedWidthInteger"/>
+      <Serial name="系列" len="38" method="Integer"/>
+    </TagScheme>
+    <TagScheme name="itip-212" len="212">
+      <Header uri="urn:epc:tag:itip-212:" len="8" method="fix">65</Header>
+      <Filter name="过滤值" len="3" method="Integer"/>
+      <Partition len="47" tableName="itip"/>
+      <Piece name="组件号" len="7" method="FixedWidthInteger"/>
+      <Total name="总件数" len="7" method="FixedWidthInteger"/>
+      <Serial name="系列" len="140" method="Set82"/>
+    </TagScheme>
+  </Scheme>
+  <Scheme name="gid" uri="urn:epc:id:gid:">
+    <TagScheme name="gid-96" len="96">
+      <Header uri="urn:epc:tag:gid-96:" len="8" method="fix">53</Header>
+      <GeneralManagerNumber name="通用管理者编号" len="28" method="Integer"/>
+      <ObjectClass name="通用管理者编号" len="24" method="Integer"/>
+      <SerialNumber name="系列号" len="36" method="Integer"/>
+    </TagScheme>
+  </Scheme>
+  <Scheme name="adi" uri="urn:epc:id:adi:">
+    <TagScheme name="adi-var" len="434">
+      <Header uri="urn:epc:tag:adi-var:" len="8" method="fix">59</Header>
+      <Filter name="过滤值" len="6" method="Integer"/>
+      <CAGEorDoDAAC name="CAGE/DoDAAC" len="36" method="CAGEorDoDAAC"/>
+      <PartNumber name="零件编号" len="198" method="Set39_max"/>
+      <SerialNumber name="系列号" len="186" method="Set39_max"/>
+    </TagScheme>
+  </Scheme>
+</CodingTable>

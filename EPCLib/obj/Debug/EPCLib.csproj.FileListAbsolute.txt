@@ -1,0 +1,12 @@
+F:\MyProject\RFID\EPC-Helper\EPCDemo\EPCLib\bin\Debug\EPCLib.dll
+F:\MyProject\RFID\EPC-Helper\EPCDemo\EPCLib\bin\Debug\EPCLib.pdb
+F:\MyProject\RFID\EPC-Helper\EPCDemo\EPCLib\obj\Debug\EPCLib.csprojAssemblyReference.cache
+F:\MyProject\RFID\EPC-Helper\EPCDemo\EPCLib\obj\Debug\EPCLib.csproj.CoreCompileInputs.cache
+F:\MyProject\RFID\EPC-Helper\EPCDemo\EPCLib\obj\Debug\EPCLib.dll
+F:\MyProject\RFID\EPC-Helper\EPCDemo\EPCLib\obj\Debug\EPCLib.pdb
+F:\我的程序\RFID\EPC-Helper\EPCDemo\EPCLib\bin\Debug\EPCLib.dll
+F:\我的程序\RFID\EPC-Helper\EPCDemo\EPCLib\bin\Debug\EPCLib.pdb
+F:\我的程序\RFID\EPC-Helper\EPCDemo\EPCLib\obj\Debug\EPCLib.csprojAssemblyReference.cache
+F:\我的程序\RFID\EPC-Helper\EPCDemo\EPCLib\obj\Debug\EPCLib.csproj.CoreCompileInputs.cache
+F:\我的程序\RFID\EPC-Helper\EPCDemo\EPCLib\obj\Debug\EPCLib.dll
+F:\我的程序\RFID\EPC-Helper\EPCDemo\EPCLib\obj\Debug\EPCLib.pdb
